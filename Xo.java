@@ -30,8 +30,7 @@ public class Xo
     static boolean Check1(char[] arr,int count,String Name)
     {
         int c=0;
-        int array[] = new int[]{0,1,2,3,4,5,6,7,8,0,3, 6, 1, 4, 7, 2, 5, 8, 0, 4, 8, 2, 4, 6};
-                              //0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+        int array[] = new int[]{0,1,2,3,4,5,6,7,8,0,3, 6, 1, 4, 7, 2, 5, 8, 0, 4, 8, 2, 4, 6};                            
         for(int i=0;i<=21;i=i+3)
         {
             c=0;
@@ -60,24 +59,10 @@ public class Xo
             return false;
             }
     }
-    //      if(((arr[0]=='X'&&arr[1]=='X'&&arr[2]=='X')||(arr[3]=='X'&&arr[4]=='X'&&arr[5]=='X')|
-    // |(arr[6]=='X'&&arr[7]=='X'&&arr[8]=='X')||(arr[0]=='X'&&arr[3]=='X'&&arr[6]=='X')||
-    // (arr[1]=='X'&&arr[4]=='X'&&arr[7]=='X')||(arr[2]=='X'&&arr[5]=='X'&&arr[8]=='X')||
-    // (arr[0]=='X'&&arr[4]=='X'&&arr[8]=='X')||(arr[2]=='X'&&arr[4]=='X'&&arr[6]=='X')))
-    //     {
-            
-    //         return true;
-    //     }
-    //     else
-    //     {
-    //         return false;
-    //     }
-    // }
     static boolean Check2(char[] arr,int count,String Name)
     {
         int c=0;
         int array[] = new int[]{0,1,2,3,4,5,6,7,8,0,3, 6, 1, 4, 7, 2, 5, 8, 0, 4, 8, 2, 4, 6};
-                              //0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
         for(int i=0;i<=21;i=i+3)
         {
             c=0;
@@ -106,21 +91,6 @@ public class Xo
             return false;
             }
     }
-        // if(((arr[0]=='O'&&arr[1]=='O'&&arr[2]=='O')||(arr[3]=='O'&&arr[4]=='O'&&arr[5]=='O')||
-        // (arr[6]=='O'&&arr[7]=='O'&&arr[8]=='O')||(arr[0]=='O'&&arr[3]=='O'&&arr[6]=='O')||
-        // (arr[1]=='O'&&arr[4]=='O'&&arr[7]=='O')||(arr[2]=='O'&&arr[5]=='O'&&arr[8]=='O')||
-        // (arr[0]=='O'&&arr[4]=='O'&&arr[8]=='O')||(arr[2]=='O'&&arr[4]=='O'&&arr[6]=='O')))
-        // {
-        //     System.out.println();
-        //     System.out.println("-------------------");
-        //     System.out.println(Name+" Win the Game");
-        //     System.out.println("-------------------");
-        //     return true;
-        // }
-        // else!
-        // {
-        //     return false;
-        // }
     static void Star(char[] arr)
     {
         int a=0;
